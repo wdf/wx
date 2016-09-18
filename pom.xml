@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.wdf</groupId>
 	<artifactId>wx</artifactId>
-	<version>1.8</version>
+	<version>1.0</version>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -63,7 +63,7 @@
 	</dependencies>
 
 	<build>
-		<finalName>jfinal-weixin-demo</finalName>
+		<finalName>wx</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>

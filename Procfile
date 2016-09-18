@@ -1,1 +1,1 @@
-web: java $JAVA_OPTS -cp target/classes:target/dependency/* com.jfinal.weixin.demo.WeixinConfig
+web: java $JAVA_OPTS -cp target/wx.jar com.jfinal.weixin.demo.WeixinConfig

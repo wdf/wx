@@ -1,1 +1,0 @@
-web: java $JAVA_OPTS  -cp target/wx.jar com.jfinal.weixin.demo.WeixinConfig

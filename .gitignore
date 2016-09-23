@@ -1,11 +1,13 @@
 # maven #
 target
 
+logs
+
 # eclipse #
 .settings
 .project
 .classpath
-*.log
+.log
 
 # windows #
 Thumbs.db
@@ -14,19 +16,37 @@ Thumbs.db
 .DS_Store
 
 # Package Files #
-*.jar
 *.war
 *.ear
 
 # idea #
 .idea
 *.iml
+
+plan.txt
+
+*.class
+
+# Package Files #
+*.jar
+
+
+*.bak
+*.tmp
+*.log
+/bin/
+build.sh
+integration-repo
+/build/
+
+# IDEA metadata and output dirs
 *.ipr
 *.iws
 
-logs
-*.class
-*.bak
-*.tmp
+/webapp/WEB-INF/classes/
+/webapp/WEB-INF/test-classes/
+/webapp/WEB-INF/target/
 
-plan.txt
+a_little_config_pro.txt
+
+dev_plan.txt

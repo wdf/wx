@@ -17,6 +17,8 @@ import com.jfinal.kit.PropKit;
 import com.jfinal.weixin.sdk.api.ApiConfig;
 import com.jfinal.weixin.sdk.api.ApiConfigKit;
 
+import java.io.File;
+
 public class WeixinConfig extends JFinalConfig {
 
     /**
@@ -104,6 +106,7 @@ public class WeixinConfig extends JFinalConfig {
     }
 
     public static void main(String[] args) {
-        JFinal.start("src/main/webapp", 80, "/", 5);
+        System.out.printf(WeixinConfig.class.getResource("/webapp").getPath());
+        JFinal.start(WeixinConfig.class.getResource("/webapp").getPath(), 80, "/", 5);
     }
 }
